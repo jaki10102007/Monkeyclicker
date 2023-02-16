@@ -1,0 +1,122 @@
+<!DOCKTYPE html>
+<html>
+<style>
+  body {
+    padding-top: 30px;
+    font-family: Arial;
+    background-color: turquoise;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin: 5px;
+}
+
+#space {
+    margin: auto;
+    text-align:center;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    border:5px solid;
+    border-radius:10px;
+    background-color: greenyellow;
+    color: white;
+    width:389px;
+    height:60px;
+}
+
+table {
+    margin-top: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+td {
+    border:1px solid;
+}
+
+#numbers {
+    margin: auto;
+    text-align:center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border:5px solid;
+    border-radius:10px;
+    background-color:white;
+    width:200px;
+    height:60px;
+}
+</style>
+<head>
+  <script type="text/javascript" src="js/cookie.js"></script>
+  <title>Monkey Clicker</title>
+  <link rel = "stylesheet" href = "style.css"/>
+</head>
+
+<body>
+<div id = "space"></div>
+<div id = "monkey" onclick="MonkeyClick()">
+  <img src="https://media.tenor.com/dRPhAsq1s2YAAAAi/monkey-eye.gif" width="200px"/>
+</div>
+
+<p>Number of Monkeys:</p>
+
+<div id = "numbers"></div>
+<div id= "upgradeLevel"></div>
+
+<p>Intructions: Click the monkey0 - this makes more Monkey.</p>
+<p>You will AUTOMATICALLY upgrade according the following table of upgrade costs! :)</p>
+
+<table>
+  <tr>
+    <td>Name</td>
+    <td>How many monkey can it make?</td>
+    <td>cost</td>
+  </tr>
+
+  <tr>
+    <td>Orang-utan!</td>
+    <td>Orang-utan make 2x's as much!</td>
+    <td>30 monkeys!</td>
+  </tr>
+
+  <tr>
+    <td>Chimpanzee</td>
+    <td> Chimpanzee makes 10x's as much!</td>
+    <td>500 monkeys!</td>
+  </tr>
+
+  <tr>
+    <td>Gorilla</td>
+    <td> Gorilla makes 30x's as much!</td>
+    <td>1,000 monkeys!</td>
+  </tr>
+
+  <tr>
+    <td>SuperMonkey</td>
+    <td> SuperMonkey makes 1000x's as much!</td>
+    <td>100,000 monkeys!</td>
+  </tr>
+
+  <tr>
+    <td>Monkeyboss</td>
+    <td> Monkeyboss makes 100000x's as much!</td>
+    <td>10,000,000 monkeys!</td>
+  </tr>
+
+ <tr>
+    <td>Extrem</td>
+    <td> Extrem makes 1000000000x's as much!</td>
+    <td>100,000,000,000 monkeys!</td>
+  </tr>
+
+</table>
+</body>
+</html>
